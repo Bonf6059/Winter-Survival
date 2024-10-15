@@ -146,11 +146,5 @@
       <baseHungerRate>0.2</baseHungerRate>
 	  </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-  <xpath>/Defs/ThingDef[defName="Caribou"]/comps/milkAmount</xpath>
-    <value>
-      <milkAmount>12</milkAmount>
-    </value>
-  </Operation>
 
 </Patch>
