@@ -12,7 +12,7 @@
 		<customThingToDig>
         		<li>RawBerries</li>
         	</customThingToDig>
-		<customAmountToDig>20</customAmountToDig>
+		<customAmountToDig>15</customAmountToDig>
 	</li>
     </value>
   </Operation>
