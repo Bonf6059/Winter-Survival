@@ -3,9 +3,19 @@
 <ModMetaData>
 	<name>Winter survival</name>
 	<author>Bonf6059</author>
-    <supportedVersions>
-        <li>1.5</li>
-    </supportedVersions>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
 	<description>Enables choosing heat wave and cold snap as starting permanent scenario conditions and patches vanilla and modded animals.</description>
+	<modDependencies>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>VanillaExpanded.VCEF</li>
+	</loadAfter>
 	<packageId>bonf6059.wintersurvival</packageId>
 </ModMetaData>
