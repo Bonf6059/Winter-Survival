@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Permanent Heat and Cold</name>
+	<author>Bonf6059</author>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+	<description>Enables choosing heat wave and cold snap as starting permanent scenario conditions.</description>
+	<packageId>bonf6059.wintersurvival</packageId>
+</ModMetaData>
