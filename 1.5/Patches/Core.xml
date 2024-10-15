@@ -8,14 +8,12 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="Megasloth"]/comps</xpath>
     <value>
-	    <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
-		    <customThingToDig>
-          <li>RawBerries</li>
-          <li>WoodLog</li>
-        </customThingToDig>
-		    <customAmountToDig>10</customAmountToDig>
-        <customAmountToDig>1</customAmountToDig>
-      </li>
+	<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+		<customThingToDig>
+        		<li>RawBerries</li>
+        	</customThingToDig>
+		<customAmountToDig>10</customAmountToDig>
+	</li>
     </value>
   </Operation>
   
@@ -27,7 +25,7 @@
   </Operation>
   
   <Operation Class="PatchOperationReplace">
-  <xpath>/Defs/ThingDef[defName="Megasloth"]/statBases/lifeExpectancy</xpath>
+  <xpath>/Defs/ThingDef[defName="Megasloth"]/race/lifeExpectancy</xpath>
     <value>
       <lifeExpectancy>30</lifeExpectancy>
 	  </value>
