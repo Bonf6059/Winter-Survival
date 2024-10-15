@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  
+<!--========== ANIMALS ==========-->
+
+  <!-- Megasloth -->
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Megasloth"]/comps</xpath>
+    <value>
+	    <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+		    <customThingToDig>
+          <li>RawBerries</li>
+          <li>WoodLog</li>
+        </customThingToDig>
+		    <customAmountToDig>10</customAmountToDig>
+        <customAmountToDig>1</customAmountToDig>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Megasloth"]/statBases/ComfyTemperatureMin</xpath>
+    <value>
+      <ComfyTemperatureMin>-60</ComfyTemperatureMin>
+	  </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Megasloth"]/statBases/lifeExpectancy</xpath>
+    <value>
+      <lifeExpectancy>30</lifeExpectancy>
+	  </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Megasloth"]/race/wildness</xpath>
+    <value>
+      <wildness>0.87</wildness>
+	  </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Megasloth"]/race/baseHungerRate</xpath>
+    <value>
+      <baseHungerRate>0.9</baseHungerRate>
+	  </value>
+  </Operation>
+  
+</Patch>
