@@ -12,13 +12,7 @@
 		<customThingToDig>
         		<li>RawBerries</li>
         	</customThingToDig>
-		<customAmountToDig>10</customAmountToDig>
-		<acceptedTerrains>
-			<li>Soil</li>
-			<li>SoilRich</li>
-			<li>Ice</li>
-		</acceptedTerrains>
-		
+		<customAmountToDig>20</customAmountToDig>
 	</li>
     </value>
   </Operation>
