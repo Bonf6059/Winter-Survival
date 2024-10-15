@@ -9,9 +9,7 @@
     <xpath>/Defs/ThingDef[defName="Megasloth"]/comps</xpath>
     <value>
 	<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
-		<customThingToDig>
-        		<li>RawBerries</li>
-        	</customThingToDig>
+		<customThingToDig>RawBerries</customThingToDig>
 		<customAmountToDig>15</customAmountToDig>
 	</li>
     </value>
